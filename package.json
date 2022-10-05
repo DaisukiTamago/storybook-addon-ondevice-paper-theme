@@ -1,0 +1,40 @@
+{
+  "name": "storybook-addon-ondevice-paper-theme",
+  "version": "0.0.1",
+  "description": "A react-native storybook addon to use themes with react native paper, credits to https://github.com/h-des/storybook-addon-ondevice-styled-theme",
+  "keywords": [
+    "addon",
+    "theme",
+    "react",
+    "react-native",
+    "react-native-paper",
+    "storybook"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist/"
+  },
+  "main": "dist/index.js",
+  "bugs": {
+    "url": "https://github.com/DaisukiTamago/storybook-addon-ondevice-paper-theme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaisukiTamago/storybook-addon-ondevice-paper-theme.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@storybook/addons": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-paper": "*"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0"
+  }
+}

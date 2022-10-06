@@ -1,6 +1,6 @@
 import React from 'react'
 import Events from './constants'
-import { ThemeProvider } from 'react-native-paper'
+import { Provider } from 'react-native-paper'
 
 class Wrapper extends React.Component {
   constructor(props) {
@@ -27,9 +27,9 @@ class Wrapper extends React.Component {
     const { children } = this.props
 
     return (
-      <ThemeProvider theme={theme}>
+      <Provider theme={theme}>
           {children}
-      </ThemeProvider>
+      </Provider>
     )
   }
 }

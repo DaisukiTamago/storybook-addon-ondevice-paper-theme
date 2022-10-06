@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-ondevice-paper-theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A react-native storybook addon to use themes with react native paper, credits to https://github.com/h-des/storybook-addon-ondevice-styled-theme",
   "keywords": [
     "addon",
